@@ -1,0 +1,12 @@
+@color:blue;
+@border:1px solid red;
+
+.stlyemix(@col){
+	background-color:@col;
+	color:@color;
+	border:@border;
+}
+
+h1{
+	.stylemix(yellow);
+}
